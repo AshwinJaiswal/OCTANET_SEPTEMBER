@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+  
+  nav {
+    background-color: #ccc;
+    padding: 1rem;
+  }
+  
+  nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  #banner {
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    height: 300px;
+  }
+  
+  #products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    margin: 1rem;
+  }
+  
+  .product img {
+    width: 100%;
+  }
+  
+  .product h3 {
+    margin-top: 0;
+  }
+  
+  footer {
+    background-color: #ccc;
+    padding: 1rem;
+  }
+  
